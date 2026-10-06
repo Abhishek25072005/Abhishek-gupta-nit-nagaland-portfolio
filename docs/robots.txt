@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhishek25072005.github.io/Abhishek-gupta-nit-nagaland-portfolio/sitemap.xml
