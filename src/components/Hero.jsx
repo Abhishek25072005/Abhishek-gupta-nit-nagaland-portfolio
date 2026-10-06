@@ -20,6 +20,7 @@ import {
   Eye
 } from 'lucide-react';
 import { sound } from '../utils/soundEffects';
+import portraitImg from '../assets/portrait.jpg';
 
 export default function Hero({ onOpenResume }) {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -260,7 +261,7 @@ export default function Hero({ onOpenResume }) {
                 
                 {/* Photo of Abhishek */}
                 <img 
-                  src="/portrait.jpg" 
+                  src={portraitImg} 
                   alt="Abhishek Gupta - Electrical & Electronics Engineering"
                   className="absolute inset-0 w-full h-full object-cover object-top filter contrast-[1.08] group-hover/img:scale-105 transition-transform duration-700"
                 />
